@@ -104,7 +104,12 @@ html{
   text-align: center;
   margin: 0;
   padding: 0;
+    transition: all 0.3s;
 }
+.navbar-text ul li a:hover{
+  color:var(--green-color);
+}
+
 /* end navbar */
 /* start landing-section */
 .parent{
