@@ -1,177 +1,327 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>portofolio</title>
-    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width">
-
+    <title>Mohamed Elfwakhry</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
     <!-- Render All Elements Normally -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+<!-- Google font -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
-        rel="stylesheet"
-      />
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-      />
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="parent">
-      <img src="images/frame.png" class="background" alt="">
-<!-- start navbar -->
-      <div class="navbar">
+      <!-- start navbar -->
+
+      <section class="navbar-section">
         <div class="container">
-          <div class="menu">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div>
+          <div class="menu-icon">
+            <div class="dash-1"></div>
+            <div class="dash-2"></div>
+            <div class="dash-3"></div>
           </div>
-          <div class="navbar-left">
-            <img src="images/logo.png" alt="">
-
+          <div class="navbar-logo">
+            <img src="images/logo2.png" alt="">
           </div>
-          <div class="navbar-right">
-            <a class="navbar-text" href="#">About</a>
-            <a class="navbar-text" href="#">Contact </a>
-            <a class="navbar-text" href="#">Home</a>
-            <a class="navbar-text" href="#">Services</a>
-            <button type="button" name="button"> <a href="#">contact me </a></button>
-
+          <div class="navbar-text">
+            <ul>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CLIENTS</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
           </div>
-
         </div>
-      </div>
+      </section>
       <!-- end navbar -->
-      <div class="sidebar-container">
-        <section class="sidebar">
-              <ul class="menuu">
-                <li class="menu-item">
-                    <a href="#" data-content="Home" class="menu-link">Home</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" data-content="About Us" class="menu-link">About Us</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Team">Team</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Pricing">Pricing</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Contact">Contact</a>
-                </li>
-              </ul>
-            </section>
-      </div>
-
-      <!-- start landing  -->
-      <div class="landing">
+      <!-- start landing -->
+      <section class="landing-section">
         <div class="container">
-          <div class="landing-text">
-            <h1>Hi, I am</h1>
-            <h4>Mohamed Elfwakhry</h4>
-            <p>Backend Developer / Laravel </p>
-            <div class="socialmedia-icons">
-              <div class="fb-icon"></div>
-              <div class="git-icon"></div>
-              <div class="gm-icon"></div>
-            </div>
+          <div class="landing-left">
+            <h1>We help and solve your business problem.</h1>
+            <p>Don’t do anything just for the money. We give smart, unexpected, creative solutions that get results.</p>
+            <button type="button" name="button">CONTACT </button>
           </div>
-          <div class="profile-image">
-            <img src="images/profile.png" alt="">
+          <div class="landing-right">
+            <div class="slider">
+              <div class="rectangualr"></div>
+              <div class="square"></div>
+              <div class="circle"></div>
+              <div class="circle2"></div>
+
+              <div class="my-slider">
+               	<img src="images/profile-Copy.png" alt="Caption 1">
+               	<img src="images/profile-2.png" alt="Caption 2">
+               </div>
+
+              </div>
 
           </div>
         </div>
-      </div>
-      <!-- end landing  -->
-
-      <!-- start about -->
-      <div class="about-section">
-        <div class="header">
-          <h1> About </h1>
-        </div>
+      </section>
+      <!-- end landing -->
+      <!-- start services section -->
+      <section class="services-section">
         <div class="container">
-          <div class="about">
-            <div class="about-left">
-              <h4>Hello</h4>
-                <p>I worked as android developer for two years and now iam working as backend laravel devleoper . I am ready for any task in laravel developing.</p>
-                <p>I graduated from faculty of engineering Mechanical Department</p>
-                <button type="button" name="button"><a href="#">DOWNLOAD CV</a></button>
-            </div>
-            <div class="about-right"  data-tilt="js-tilt">
-              <img src="images/about.png" alt=""/>
-            </div>
+          <div class="header-section">
+            <h4>OUR SERVICES</h4>
+            <h2>What We Do?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis delectus dolorem possimus, dolor rerum.</p>
           </div>
-        </div>
-
-      </div>
-      <!-- end about -->
-
-      <!-- start services -->
-      <div class="services">
-        <div class="header">
-          <h1>Services</h1>
-        </div>
-        <div class="container">
-          <div class="services-section">
-            <div class="service" data-tilt="js-tilt">
-              <img src="images/design.png" alt=""/>
-              <h4>Website Design</h4>
+          <div class="services-flex">
+            <div class="service">
+              <i class="far fa-bookmark"></i>
+              <h4>Web Development</h4>
             </div>
-            <div class="service" data-tilt="js-tilt">
-              <img src="images/ui.png" alt=""/>
+            <div class="service">
+              <i class="fas fa-broom"></i>
               <h4>UI/UX Design</h4>
+
+            </div>
+            <div class="service">
+              <i class="fas fa-vector-square"></i>
+
+              <h4>Digital Illustration</h4>
+
+            </div>
+            <div class="service">
+              <i class="fas fa-expand"></i>
+
+              <h4>Graphic Design</h4>
+
+            </div>
+            <div class="service">
+              <i class="fas fa-chalkboard"></i>
+
+              <h4>SEO</h4>
+
+            </div>
+            <div class="service">
+              <i class="fas fa-film"></i>
+
+              <h4>Video Marketing</h4>
+
+            </div>
+            <div class="service">
+              <i class="fab fa-uikit"></i>
+
+              <h4>Cloud Service</h4>
+
             </div>
           </div>
         </div>
-      </div>
-      <!-- end services -->
-      <!-- start footer -->
-      <!-- start footer -->
-      <section class="footer">
+      </section>
+      <!-- end services section -->
+      <!-- start OUR PHILOSOPHY -->
+      <section class="philosophy">
         <div class="container">
-          <h3 class="footer-left">
-            Copyright © 2020, CodeAndCreate - All Rights Reserved
+          <div class="header-section">
+            <h4>OUR PHILOSOPHY</h4>
+            <h2>Why Choose Us?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis delectus dolorem possimus, dolor rerum.</p>
+          </div>
+          <div class="philosophy-flex">
+            <div class="phol">
+              <h4>01</h4>
+              <h5>Competence</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus odit sequi obcaecati, cum dicta, libero consectetur asperiores enim doloribus cupiditate totam voluptas iure repellat quisquam.</p>
+            </div>
+            <div class="phol">
+              <h4>02</h4>
+              <h5>Trustworthy</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus odit sequi obcaecati, cum dicta, libero consectetur asperiores enim doloribus cupiditate totam voluptas iure repellat quisquam.</p>
+            </div>
+            <div class="phol">
+              <h4>03</h4>
+              <h5>Friendly</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus odit sequi obcaecati, cum dicta, libero consectetur asperiores enim doloribus cupiditate totam voluptas iure repellat quisquam.</p>
+            </div>
 
+          </div>
+        </div>
+      </section>
+      <!-- end OUR PHILOSOPHY -->
+      <!-- start sidebar -->
+      <section class="sidebar">
+        <ul class="menuu">
+          <li class="menu-item">
+              <a href="#" data-content="Home" class="menu-link">Home</a>
+          </li>
+          <li class="menu-item">
+              <a href="#" data-content="About Us" class="menu-link">About Us</a>
+          </li>
+          <li class="menu-item">
+              <a href="#" class="menu-link" data-content="Team">Team</a>
+          </li>
+          <li class="menu-item">
+              <a href="#" class="menu-link" data-content="Pricing">Pricing</a>
+          </li>
+          <li class="menu-item">
+              <a href="#" class="menu-link" data-content="Contact">Contact</a>
+          </li>
+        </ul>
+        <div class="social-media">
+          <a href="https://www.facebook.com/mohamed.elfwkhry/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/mohamed_elfawakhry/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/MohamedElfwakhry"><i class="fab fa-github"></i></a>
+        </div>
+      </section>
+      <!-- end sidebar -->
+      <!-- start question section -->
+      <section class="question-section">
+          <div class="container">
+            <div class="header-section">
+              <h4>FAQ</h4>
+              <h2>Most Asked Questions</h2>
+            </div>
+            <ul class="questions" id="myList">
+              <li class="question" onclick="myfunction(this)">
+                <div class="question-header">
+                  <a>What types of licenses are included?</a>
+                  <div class="plus"></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </li>
+              <li class="question" onclick="myfunction(this)">
+                <div class="question-header">
+                  <a>What types of licenses are included?</a>
+                  <div class="plus"></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </li>
+            </ul>
+          </div>
+      </section>
+      <!-- end question section -->
+      <!-- start my Recent work -->
+      <section class="recent-work-section">
+        <div class="container">
+          <div class="header-section">
+            <h4>Portfolio</h4>
+            <h2>My Recent Work</h2>
+            <p>I design and code beautifully simple things, and I love what I do.</p>
 
-          </h3>
-          <div class="footer-right">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="works">
+            <div class="work-card">
+              <img src="images/bg.jpg" alt="">
+              <div class="card-info">
+                <h4>Educational Website (Portfolio)</h4>
+                <ul>
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
 
+              </div>
+              <div class="buttons">
+                <button type="button" name="button"><a href="https://github.com/MohamedElfwakhry/Portfolio">Github</a></button>
+                <button type="button" name="button"><a href="https://kind-clarke-b9a8f4.netlify.app/">Link</a></button>
+
+              </div>
+            </div>
+            <div class="work-card">
+              <img src="images/doctors.png" alt="">
+              <div class="card-info">
+                <h4>Doctors Website</h4>
+                <ul>
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>Php</li>
+                  <li>Laravel</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button type="button" name="button"><a href="https://doctors.archestru.com/en">link</a></button>
+
+              </div>
+            </div>
+            <div class="work-card">
+              <img src="images/bg.jpg" alt="">
+              <div class="card-info">
+                <h4>Educational Website About Architecture</h4>
+                <ul>
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button type="button" name="button"><a href="https://educational-sammet-468ce9.netlify.app/">Link</a></button>
+                <button type="button" name="button"><a href="https://github.com/MohamedElfwakhry/EducationlWebsite">Github</a></button>
+
+              </div>
+            </div>
           </div>
         </div>
 
       </section>
-      <!-- end footer -->
+      <!-- end my Recent work -->
+      <!-- start footer -->
+      <section class="footer">
+        <h3 class="footer-left">
+          Copyright © 2020, CodeAndCreate - All Rights Reserved
+
+
+        </h3>
+        <div class="footer-right">
+          <a href="https://www.facebook.com/mohamed.elfwkhry/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/mohamed_elfawakhry/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/MohamedElfwakhry"><i class="fab fa-github"></i></a>
+
+        </div>
+      </section>
       <!-- end footer -->
     </div>
-    <script
-          src="https://code.jquery.com/jquery-3.5.1.js"
-          integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-          crossorigin="anonymous"
-        ></script>
-        <script type="text/javascript" src="script.js">
 
-        </script>
-    <script src="css/tilt.js"></script>
-    <script type="text/javascript">
-      $('.js-tilt').tilt({
-        glare: true,
-            maxGlare: .5
-      })
-    </script><script
+    <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+    <script type="module">
+
+      var slider = tns({
+        container: '.my-slider',
+        items: 1,
+        slideBy: 'page',
+        autoplay: true,
+        controls:false,
+        mouseDrag:true,
+        nav:false,
+        autoplayButton	: false,
+        autoplayButtonOutput	:false,
+        center: true,
+        speed:700,
+        swipeAngle:false,
+        autoHeight: false,
+      });
+    </script>
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
+    <script type="text/javascript">
+      $('.questions').each(function() {
+          var $tab = $(this).find(".question");
+          $tab.on("click", function() {
+                this.classList.toggle("active");
+          });
+      });
+    </script>
   </body>
 </html>
