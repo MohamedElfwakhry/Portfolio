@@ -658,7 +658,8 @@ object-fit: cover;
   background-color: #F7F9FC;
   margin-top: 5rem;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
+
 }
 .works{
   margin-top: 10rem;
@@ -669,7 +670,7 @@ object-fit: cover;
   width: 30%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.9);
-  box-shadow: 0 0.1rem .8rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem .8rem rgba(0, 0, 0, 0.4);
 }
 .work-card img{
   width: 100%;
